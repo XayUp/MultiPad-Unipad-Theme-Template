@@ -1,0 +1,65 @@
+{
+  "allFiles": [
+    {
+      "file": "/storage/emulated/0/AndroidIDEProjects/Trizek Sticker/CrashLog/src/main/java/com/xayup/debug/CrashLog.java",
+      "selection": {
+        "end": {
+          "column": 43,
+          "index": 2106,
+          "line": 50
+        },
+        "start": {
+          "column": 43,
+          "index": 2106,
+          "line": 50
+        }
+      }
+    },
+    {
+      "file": "/storage/emulated/0/AndroidIDEProjects/Trizek Sticker/app/src/main/java/com/kimjisub/launchpad/theme/template/MainActivity.java",
+      "selection": {
+        "end": {
+          "column": 95,
+          "index": 2161,
+          "line": 50
+        },
+        "start": {
+          "column": 95,
+          "index": 2161,
+          "line": 50
+        }
+      }
+    },
+    {
+      "file": "/storage/emulated/0/AndroidIDEProjects/Trizek Sticker/CrashLog/src/main/res/values/theme.xml",
+      "selection": {
+        "end": {
+          "column": 43,
+          "index": 666,
+          "line": 11
+        },
+        "start": {
+          "column": 43,
+          "index": 666,
+          "line": 11
+        }
+      }
+    },
+    {
+      "file": "/storage/emulated/0/AndroidIDEProjects/Trizek Sticker/app/src/main/AndroidManifest.xml",
+      "selection": {
+        "end": {
+          "column": 53,
+          "index": 945,
+          "line": 26
+        },
+        "start": {
+          "column": 53,
+          "index": 945,
+          "line": 26
+        }
+      }
+    }
+  ],
+  "selectedFile": "/storage/emulated/0/AndroidIDEProjects/Trizek Sticker/app/src/main/AndroidManifest.xml"
+}

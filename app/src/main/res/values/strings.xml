@@ -1,0 +1,14 @@
+<resources>
+	<string name="app_name">Trizek Sticker</string>
+
+	<string name="theme_name">Trizek Sticker Skin</string>
+	<string name="theme_description">Theme inspired by the real Trizek skin</string>
+	<string name="theme_author">XayUp</string>
+	
+	<string name="by">by</string>
+	<string name="open_or_download">Open or download:</string>
+    
+    <string name="app_not_installed">App not installed. After downloading, follow the instruction</string>
+    <string name="apply_skin_instruction_multipad">Tap the floating button and tap \"Skins\" or open a unipack and after loading, tap the back button and select the skin you want</string>
+    <string name="apply_skin_instruction_unipad">Tap the floating button and tap \"Setings\" and then \"Select Skin\" and select the skin you want and tap \"Apply\" and then \"Restart\""</string>
+</resources>

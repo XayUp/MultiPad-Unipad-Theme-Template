@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+     xmlns:android="http://schemas.android.com/apk/res/android"
+     xmlns:tools="http://schemas.android.com/tools"
+     android:layout_height="match_parent"
+     android:layout_width="match_parent"
+     android:id="@+id/activity_main">
+
+    <ImageView
+         android:layout_height="match_parent"
+         android:layout_width="match_parent"
+         android:scaleType="centerCrop"
+         android:src="@drawable/preview" />
+
+    <LinearLayout
+         android:layout_height="@dimen/information_area"
+         android:layout_width="match_parent"
+         android:background="@color/name_and_description_background"
+         android:orientation="horizontal"
+         android:layout_alignParentBottom="true">
+
+        <ImageView
+             android:layout_height="@dimen/information_area"
+             android:layout_width="@dimen/information_area"
+             android:scaleType="centerInside"
+             android:src="@drawable/theme_ic"
+             android:padding="12dp" />
+
+        <LinearLayout
+             android:layout_height="@dimen/information_area"
+             android:layout_width="0dp"
+             android:gravity="center"
+             android:orientation="vertical"
+             android:layout_weight="1">
+
+            <TextView
+                 android:layout_height="wrap_content"
+                 android:layout_width="wrap_content"
+                 android:padding="4dp"
+                 android:id="@+id/skin_name_by_author" />
+
+            <TextView
+                 android:layout_height="wrap_content"
+                 android:layout_width="wrap_content"
+                 android:padding="4dp"
+                 android:id="@+id/skin_description"
+                 android:text="@string/theme_description" />
+
+        </LinearLayout>
+
+        <LinearLayout
+             android:layout_height="@dimen/information_area"
+             android:layout_width="@dimen/information_area"
+             android:gravity="center"
+             android:orientation="vertical">
+
+            <TextView
+                 android:layout_height="wrap_content"
+                 android:layout_width="wrap_content"
+                 android:padding="4dp"
+                 android:text="@string/open_or_download" />
+
+            <LinearLayout
+                 android:layout_height="0dp"
+                 android:layout_width="match_parent"
+                 android:orientation="horizontal"
+                 android:layout_weight="1">
+
+                <ImageView
+                     android:layout_height="match_parent"
+                     android:layout_width="0dp"
+                     android:scaleType="centerInside"
+                     android:src="@drawable/unipad_appicon"
+                     android:padding="2dp"
+                     android:layout_weight="0.5"
+                     android:id="@+id/unipad_icon" />
+
+                <ImageView
+                     android:layout_height="match_parent"
+                     android:layout_width="0dp"
+                     android:scaleType="centerInside"
+                     android:src="@drawable/multipad_appicon"
+                     android:padding="2dp"
+                     android:layout_weight="0.5"
+                     android:id="@+id/multipad_icon" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>
